@@ -9,7 +9,7 @@ function App() {
       <Main />
       <Footer />
       <div className='container flex justify-between'>
-        <div className='menu-details flex gap-[100px] text-[#003846]'>
+        <div className='menu-details flex gap-[100px] text-inherit'>
           <a href='#!'><img src='logo.svg' alt='logo'/></a>
           <ul className=''>
             <li className='li-header'>Asosiy</li>
@@ -33,9 +33,9 @@ function App() {
         </div>
       </div>
       <hr className='container bg-[#979797] my-7 '/>
-      <div className='container flex justify-between text-[#003846]'>
+      <div className='container flex justify-between text-inherit'>
         <span className=''> Maxway, 2020</span>
-        <div className='flex justify-center items-center gap-6 mr-64 text-[#2221248a]'>
+        <div className='flex justify-center items-center gap-6 mr-64 text-inherit'>
           <a href='#!'><i class="fa-brands fa-facebook"></i></a>
           <a href='#!'><i class="fa-brands fa-telegram"></i></a>
           <a href='#!'><i class="fa-brands fa-facebook"></i></a>

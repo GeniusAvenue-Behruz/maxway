@@ -6,6 +6,17 @@ import pizza from '../pizza.svg'
 import kombo from '../kombo.svg'
 import PizzaCard from './pizzaCard.js'
 
+function myFunction() {
+    let element = document.body;
+    console.log(element);
+    element.classList.toggle("dark");
+
+    let card = document.getElementById("card");
+    console.log(card);
+    card.classList.toggle("dark");
+
+}
+
 export const Header = () => {
     return (
         <header className='header realtive mb-20'>
@@ -18,6 +29,7 @@ export const Header = () => {
                         <li><a href='#!'>Menyu</a></li>
                         <li><a href='#!'>Bolalar Uchun</a></li>
                         <li><a href='#!'>Filiallar</a></li>
+                        <li><button onClick={myFunction}>Switch mode</button> </li>
                     </ul>
                     <div className='purple-w absolute h-[807px] top-0 right-0 -z-10 bg-[#800A7A]'></div>
                     <div className='contact-details text-white flex w-[40%]'>

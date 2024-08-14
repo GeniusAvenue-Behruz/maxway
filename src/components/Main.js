@@ -1,31 +1,31 @@
 import React from 'react'
-import gavayaImg from '../gavayaImg.svg'
-import mexicoImg from './mexica.svg'
-import hotImg from './hot.svg'
-import mexicoImg2 from './Mexica2.svg'
-import burgerImg from "./burger.svg"
+import gavayaImg from '../gavayaImg.png'
+import mexicoImg from './mexico.png'
+import hotImg from './hot.png'
+import mexicoImg2 from './Mexica2.png'
+import burgerImg from "./burger.png"
 import PizzaCard from './MainPizzaCard.js'
 import komboImg from './kombo.svg'
-import komboImg2 from './kombo2.svg'
-import sprite from './sprite.svg'
-import fanta from './fanta.svg'
-import kola from './kola.svg'
+import komboImg2 from './kombo2.png'
+import sprite from './sprite.png'
+import fanta from './fanta.png'
+import kola from './kola.png'
 
 const Main = () => {
     return (
         <div>
-            <nav class="bg-white py-4">
+            <nav class="bg-inherit py-4">
                 <div class="container mx-auto flex justify-between items-center">
                     <div class="flex space-x-4">
                         <button class="bg-[#F1B301] text-white px-4 py-2 rounded-full">Barchasi</button>
-                        <a href="#!" class="text-[#222124] px-4 py-2">Pitsa</a>
-                        <a href="#!" class="text-[#222124] px-4 py-2">Burger</a>
-                        <a href="#!" class="text-[#222124] px-4 py-2">Kombo</a>
-                        <a href="#!" class="text-[#222124] px-4 py-2">Salat</a>
-                        <a href="#!" class="text-[#222124] px-4 py-2">Shirinliklar</a>
-                        <a href="#!" class="text-[#222124] px-4 py-2">Ichimliklar</a>
+                        <a href="#!" class="text-inherit px-4 py-2">Pitsa</a>
+                        <a href="#!" class="text-inherit px-4 py-2">Burger</a>
+                        <a href="#!" class="text-inherit px-4 py-2">Kombo</a>
+                        <a href="#!" class="text-inherit px-4 py-2">Salat</a>
+                        <a href="#!" class="text-inherit px-4 py-2">Shirinliklar</a>
+                        <a href="#!" class="text-inherit px-4 py-2">Ichimliklar</a>
                     </div>
-                    <button class="bg-[#F5F5F5] text-[#222124] px-[44px] py-[15px] rounded-full">Filtr</button>
+                    <button class="!bg-[#F5F5F5] text-[#222124] px-[44px] py-[15px] rounded-full">Filtr</button>
                 </div>
             </nav>
 

@@ -19,11 +19,27 @@ body{
 .purple-w{
     width: calc(40% + 50px);
 }
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6 !important;
+    *{
+        background-color: #222;
+    }
+}
 
 i{
     width: 24px;
     height: 24px;
-    color: #22212481;
+    color: inherit;
 }
 .fire-icon::before {
     content: ""; /* Path to your fire icon image */
