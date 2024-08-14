@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PizzaCard = ({ bgColor = '#FFC85C',nameColor, status = 'Yangi', name = 'Pit -sa', imgSrc, imgAlt = 'Yangi Pizza' }) => {
+const PizzaCard = ({ bgColor = '#FFC85C',nameColor='#E76A06', status = 'Yangi', name = 'Pit -sa', imgSrc, imgAlt = 'Yangi Pizza' }) => {
   return (
     <div className={`bg-[${bgColor}] w-[255px] h-[200px] rounded-xl pt-8 relative overflow-hidden`}>
       <span className='status text-base px-5 py-[10px] bg-[#ffffff69] rounded-2xl ml-5'>{status}</span>
