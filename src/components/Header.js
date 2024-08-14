@@ -49,9 +49,9 @@ export const Header = () => {
                     <img src={burger} alt='Burger'/>
                 </div>
             <div className='header__hero-hot container flex gap-[30px] -mt-40'>
-            <PizzaCard 
-  bgColor="#FFC85C"
-  nameColor="#E76A06" 
+<PizzaCard 
+  bgColor="#F1B301"
+  nameColor={"#E76A06" }
   status="Yangi" 
   name="Pit -sa" 
   imgSrc={pizza} 
@@ -59,8 +59,8 @@ export const Header = () => {
 />
 <PizzaCard 
   bgColor="#800A7A" 
-  nameColor="#FC96F7"
-  status="Yangi" 
+  nameColor={"#FC96F7"}
+  status="Svejiy" 
   name="Kom -bo" 
   imgSrc={kombo} 
   imgAlt="Yangi Pizza" 
