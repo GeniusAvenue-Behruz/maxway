@@ -8,7 +8,7 @@ import PizzaCard from './pizzaCard.js'
 
 export const Header = () => {
     return (
-        <header className='header realtive'>
+        <header className='header realtive mb-20'>
             <div className='container flex justify-between items-center'>
                 <nav className='header__nav flex w-full justify-between items-center'>
                     <a href="!">

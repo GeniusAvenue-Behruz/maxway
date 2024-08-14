@@ -6,8 +6,41 @@
     .container{
         @apply max-w-[1200px] w-full mx-auto my-0;
     }      
+    .li-header{
+        @apply font-semibold text-xl mb-6
+    }
+
 }
 
 .purple-w{
     width: calc(40% + 50px);
+}
+
+i{
+    width: 24px;
+    height: 24px;
+    color: #22212481;
+}
+.fire-icon::before {
+    content: ""; /* Path to your fire icon image */
+    position: absolute;
+    top: 10px; /* Adjust based on your needs */
+    left: 10px; /* Adjust based on your needs */
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    background-color: #ffffff9d;
+    border-radius: 50px;
+    filter: blur(1px);
+    z-index: 1;
+}
+.fire-icon::after {
+    content: "🔥"; /* Path to your fire icon image */
+    position: absolute;
+    top: 20px; /* Adjust based on your needs */
+    left: 20px; /* Adjust based on your needs */
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    /* background-color: white; */
+    /* filter: blur(8px); */
+    z-index: 1;
 }
