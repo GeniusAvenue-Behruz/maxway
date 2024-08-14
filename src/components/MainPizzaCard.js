@@ -2,7 +2,7 @@ import React from 'react';
 
 const PizzaCard = ({ id='card', imageSrc, altText, title, description, price, emoji, hot=false }) => {
     return (
-        <div id={id} className="bg-white w-[450px] p-6 rounded-xl flex gap-10 justify-between border border-[#9797972a]">
+        <div id={id} className="bg-white w-auto p-6 rounded-xl flex gap-10 justify-between border border-[#9797972a]">
             <div className="relative">
                 <img className="my-4" src={imageSrc} alt={altText} />
                 {hot && <div className="fire-icon"></div>}
