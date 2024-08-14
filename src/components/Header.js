@@ -52,8 +52,6 @@ export const Header = () => {
             <PizzaCard 
   bgColor="#FFC85C"
   nameColor="#E76A06" 
-  width="255px" 
-  height="200px" 
   status="Yangi" 
   name="Pit -sa" 
   imgSrc={pizza} 
@@ -62,8 +60,6 @@ export const Header = () => {
 <PizzaCard 
   bgColor="#800A7A" 
   nameColor="#FC96F7"
-  width="255px" 
-  height="200px" 
   status="Yangi" 
   name="Kom -bo" 
   imgSrc={kombo} 
